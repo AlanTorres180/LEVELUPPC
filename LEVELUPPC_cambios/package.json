@@ -1,0 +1,29 @@
+{
+  "name": "proyectleveluppc",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server.js",
+    "db:setup": "node db/setup.js",
+    "db:seed": "node db/seed.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "openai": "^4.104.0",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/node": "^24.9.2",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  }
+}

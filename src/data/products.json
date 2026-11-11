@@ -1,0 +1,1010 @@
+{
+  "products": [
+   {
+    "id": 1,
+    "name": "Chasis Corsair 4000D Airflow ATX Mid Tower",
+    "price": 510000,
+    "category": "cases",
+    "brand": "corsair",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_850900-MLA43939869555_102020-O.webp"
+  },
+  {
+    "id": 2,
+    "name": "Chasis Corsair 5000D Airflow ATX Mid Tower",
+    "price": 620000,
+    "category": "cases",
+    "brand": "corsair",
+    "image": "https://http2.mlstatic.com/D_Q_NP_840721-MLA93873319386_102025-O.webp"
+  },
+  {
+    "id": 3,
+    "name": "Chasis Corsair iCUE 7000X RGB Full Tower",
+    "price": 900000,
+    "category": "cases",
+    "brand": "corsair",
+    "image": "https://http2.mlstatic.com/D_Q_NP_662193-MLU78018021213_072024-O.webp"
+  },
+  {
+    "id": 4,
+    "name": "Chasis Cooler Master MasterBox NR200 Mini-ITX",
+    "price": 445000,
+    "category": "cases",
+    "brand": "cooler-master",
+    "image": "https://http2.mlstatic.com/D_Q_NP_989852-MLA94292566137_102025-B.webp"
+  },
+  {
+    "id": 5,
+    "name": "Chasis Cooler Master TD500 Mesh ATX Mid Tower",
+    "price": 480000,
+    "category": "cases",
+    "brand": "cooler-master",
+    "image": "https://compugamercol.com/wp-content/uploads/2022/09/CHASIS-Cooler-Master-MasterBox-TD500-Mesh-White-0.webp"
+  },
+  {
+    "id": 6,
+    "name": "Chasis Cooler Master MasterBox Q300L ATX Vidrio Templado",
+    "price": 315000,
+    "category": "cases",
+    "brand": "cooler-master",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_653908-MLA95519197736_102025-O.webp"
+  },
+  {
+    "id": 7,
+    "name": "Chasis Thermaltake Divider 300 TG Mid Tower Negro",
+    "price": 490000,
+    "category": "cases",
+    "brand": "thermaltake",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_917663-MCO49809519138_042022-O.webp"
+  },
+  {
+    "id": 8,
+    "name": "Chasis Thermaltake Versa H18 Micro ATX Vidrio Templado",
+    "price": 295000,
+    "category": "cases",
+    "brand": "thermaltake",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_874349-MLA94291382459_102025-O.webp"
+  },
+  {
+    "id": 9,
+    "name": "Chasis Thermaltake View 270 Plus TG ARGB Mid Tower",
+    "price": 420000,
+    "category": "cases",
+    "brand": "thermaltake",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgo8CbeecvXgY6Rpe7NBdG0WQ2pcUZOFBuSw&s"
+  },
+  {
+    "id": 10,
+    "name": "Chasis Cougar MX330-G ATX Vidrio Templado",
+    "price": 380000,
+    "category": "cases",
+    "brand": "cougar",
+    "image": "https://cougargaming.com/global/img/products/cases/mx330_g/product-image.png"
+  },
+  {
+    "id": 11,
+    "name": "Chasis Cougar Panzer Mid Tower Gamer",
+    "price": 550000,
+    "category": "cases",
+    "brand": "cougar",
+    "image": "https://static.tweaktown.com/content/9/0/9022_33_cougar-panzer-mid-tower-chassis-review.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Chasis Cougar MX440 Mesh ATX Mid Tower",
+    "price": 315000,
+    "category": "cases",
+    "brand": "cougar",
+    "image": "https://cougargaming.com/_cgrwdr_/wwdpp/wp-content/uploads/2020/08/05-2-1.png"
+  },
+  {
+    "id": 13,
+    "name": "Chasis Redragon Reflect Flow CA606 ATX Gaming PC Case",
+    "price": 656000,
+    "category": "cases",
+    "brand": "redragon",
+    "image": "https://redragonshop.com/cdn/shop/files/RedragonCA606GamingBack-MountedPCCase_2.png?v=1732955431&width=1946"
+  },
+  {
+    "id": 14,
+    "name": "Chasis Redragon Grapple Mid Tower RGB",
+    "price": 260000,
+    "category": "cases",
+    "brand": "redragon",
+    "image": "https://img.terabyteshop.com.br/produto/g/gabinete-gamer-redragon-grapple-mid-tower-s-fan-vidro-temperado-black-s-fonte-gc-607-bk_107502.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Chasis Redragon Snow M-ATX Gaming PC Case",
+    "price": 295000,
+    "category": "cases",
+    "brand": "redragon",
+    "image": "https://m.media-amazon.com/images/I/71DGwysHeqL.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Fuente de poder Corsair CV550 550W 80 Plus Bronze",
+    "price": 270000,
+    "category": "power-supplies",
+    "brand": "corsair",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_814980-MCO43037233861_082020-O.webp"
+  },
+  {
+    "id": 17,
+    "name": "Fuente de poder Corsair RM750e 750W 80 Plus Gold",
+    "price": 460000,
+    "category": "power-supplies",
+    "brand": "corsair",
+    "image": "https://s3-sa-east-1.amazonaws.com/saasargentina/EFPfyOzuQ7726IDrdRpS/imagen"
+  },
+  {
+    "id": 18,
+    "name": "Fuente de poder Corsair HX1000 1000W 80 Plus Platinum",
+    "price": 850000,
+    "category": "power-supplies",
+    "brand": "corsair",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_837264-MLU70509326826_072023-O.webp"
+  },
+  {
+    "id": 19,
+    "name": "Fuente de poder Cooler Master MWE 550W 80 Plus Bronze",
+    "price": 250000,
+    "category": "power-supplies",
+    "brand": "cooler-master",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY0hJD2y5y1UdxUNwXazBdjEbLQncq8DVgSQ&s"
+  },
+  {
+    "id": 20,
+    "name": "Fuente de poder Cooler Master MWE Gold 750W Full Modular",
+    "price": 430000,
+    "category": "power-supplies",
+    "brand": "cooler-master",
+    "image": "https://media.falabella.com/falabellaCO/148353201_01/w=800,h=800,fit=pad"
+  },
+  {
+    "id": 21,
+    "name": "Fuente de poder Cooler Master V850 850W 80 Plus Gold",
+    "price": 570000,
+    "category": "power-supplies",
+    "brand": "cooler-master",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_826075-MLU75097515362_032024-O.webp"
+  },
+  {
+    "id": 22,
+    "name": "Fuente de poder Thermaltake Smart 600W 80 Plus White",
+    "price": 280000,
+    "category": "power-supplies",
+    "brand": "thermaltake",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgNlN4iTzREw-FL1ZiHqX-Uvzq74HQtKk7CA&s"
+  },
+  {
+    "id": 23,
+    "name": "Fuente de poder Thermaltake Toughpower GX2 600W 80 Plus Gold",
+    "price": 340000,
+    "category": "power-supplies",
+    "brand": "thermaltake",
+    "image": "https://http2.mlstatic.com/D_Q_NP_686736-MLA93857232222_102025-O.webp"
+  },
+  {
+    "id": 24,
+    "name": "Fuente de poder Thermaltake Toughpower GF1 750W 80 Plus Gold",
+    "price": 460000,
+    "category": "power-supplies",
+    "brand": "thermaltake",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_983375-MLU54970737426_042023-O.webp"
+  },
+  {
+    "id": 25,
+    "name": "Fuente de poder ASUS TUF Gaming 550W 80 Plus Bronze",
+    "price": 310000,
+    "category": "power-supplies",
+    "brand": "asus",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_909731-MCO49604197785_042022-O.webp"
+  },
+  {
+    "id": 26,
+    "name": "Fuente de poder ASUS TUF Gaming 650W 80 Plus Bronze",
+    "price": 350000,
+    "category": "power-supplies",
+    "brand": "asus",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_741717-MCO44826703496_022021-O.webp"
+  },
+  {
+    "id": 27,
+    "name": "Fuente de poder ASUS ROG Strix 750W 80 Plus Gold Modular",
+    "price": 520000,
+    "category": "power-supplies",
+    "brand": "asus",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_677660-CBT79210969431_092024-O.webp"
+  },
+  {
+    "id": 28,
+    "name": "Fuente de poder Redragon RGPS 500W 80 Plus Bronze",
+    "price": 230000,
+    "category": "power-supplies",
+    "brand": "redragon",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_888756-MCO44668307005_012021-O.webp"
+  },
+  {
+    "id": 29,
+    "name": "Fuente de poder Redragon RGPS 700W 80 Plus Bronze",
+    "price": 280000,
+    "category": "power-supplies",
+    "brand": "redragon",
+    "image": "https://redragon.es/content/uploads/2021/05/700-M.png"
+  },
+  {
+    "id": 30,
+    "name": "Fuente de poder Redragon RGPS 850W 80 Plus Gold",
+    "price": 360000,
+    "category": "power-supplies",
+    "brand": "redragon",
+    "image": "https://www.idcmayoristas.com/wp-content/uploads/2024/10/redragon-gc-ps010-80-plus-gold-850w-atx-modular-gc-ps010-lal-5.png"
+  },
+  {
+    "id": 31,
+    "name": "Memoria RAM Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz",
+    "price": 380000,
+    "category": "memory",
+    "brand": "corsair",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_690295-MLA95404589144_102025-O.webp"
+  },
+  {
+    "id": 32,
+    "name": "Memoria RAM Corsair Vengeance LPX 32GB (2x16GB) DDR4 3200MHz",
+    "price": 720000,
+    "category": "memory",
+    "brand": "corsair",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_918190-MCO43423401188_092020-O.webp"
+  },
+  {
+    "id": 33,
+    "name": "Memoria RAM Patriot Viper Steel 16GB (2x8GB) DDR4 3400MHz",
+    "price": 355000,
+    "category": "memory",
+    "brand": "patriot",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_963563-MCO81609666400_012025-O.webp"
+  },
+  {
+    "id": 34,
+    "name": "Memoria RAM Patriot Viper Steel 32GB (2x16GB) DDR4 3600MHz",
+    "price": 650000,
+    "category": "memory",
+    "brand": "patriot",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_965302-MCO47784251849_102021-O.webp"
+  },
+  {
+    "id": 35,
+    "name": "Memoria RAM ADATA XPG Gammix D35 16GB (2x8GB) DDR4 3200MHz",
+    "price": 370000,
+    "category": "memory",
+    "brand": "adata",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_833918-MCO76040767730_052024-O.webp"
+  },
+  {
+    "id": 36,
+    "name": "Memoria RAM ADATA XPG Gammix D35 32GB (2x16GB) DDR4 3600MHz",
+    "price": 680000,
+    "category": "memory",
+    "brand": "adata",
+    "image": "https://img.pccomponentes.com/articles/1080/10805487/4531-adata-xpg-gammix-d35-ddr4-3600mhz-32gb-2x16gb-negro-especificaciones.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Memoria RAM Corsair Vengeance RGB Pro 16GB (2x8GB) DDR4 3600MHz",
+    "price": 410000,
+    "category": "memory",
+    "brand": "corsair",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_807808-MLU71842224724_092023-O.webp"
+  },
+  {
+    "id": 38,
+    "name": "Memoria RAM Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4 3600MHz",
+    "price": 750000,
+    "category": "memory",
+    "brand": "corsair",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_684097-CBT53449178804_012023-O.webp"
+  },
+  {
+    "id": 39,
+    "name": "Memoria RAM Patriot Viper Elite II 16GB (2x8GB) DDR4 3200MHz",
+    "price": 340000,
+    "category": "memory",
+    "brand": "patriot",
+    "image": "https://www.tradeinn.com/f/13920/139205679/patriot-memoria-ram-viper-elite-ii-16gb-2x8gb-ddr4-3200mhz.webp"
+  },
+  {
+    "id": 40,
+    "name": "Memoria RAM Patriot Viper Elite II 32GB (2x16GB) DDR4 3200MHz",
+    "price": 620000,
+    "category": "memory",
+    "brand": "Patriot",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_757046-MCO83383691365_032025-O.webp"
+  },
+  {
+    "id": 41,
+    "name": "Memoria RAM ADATA XPG D50 16GB (2x8GB) DDR4 3600MHz RGB",
+    "price": 365000,
+    "category": "memory",
+    "brand": "adata",
+    "image": "https://www.quorumsystem.com.co/wp-content/uploads/2024/02/productGallery215.png"
+  },
+  {
+    "id": 42,
+    "name": "Memoria RAM ADATA XPG D50 32GB (2x16GB) DDR4 3600MHz RGB",
+    "price": 700000,
+    "category": "memory",
+    "brand": "adata",
+    "image": "https://m.media-amazon.com/images/I/51chbyj1YTL.AC_SX679.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Memoria RAM Corsair Vengeance LPX 32GB (2x16GB) DDR5 6000MHz",
+    "price": 950000,
+    "category": "memory",
+    "brand": "corsair",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_935167-MLU73129844372_122023-F.webp"
+  },
+  {
+    "id": 44,
+    "name": "Memoria RAM ADATA XPG Lancer 32GB (2x16GB) DDR5 6000MHz RGB",
+    "price": 890000,
+    "category": "memory",
+    "brand": "adata",
+    "image": "https://m.media-amazon.com/images/I/51oNTYOhLeL.AC_SX355.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Memoria RAM Patriot Viper Venom RGB 32GB (2x16GB) DDR5 6000MHz",
+    "price": 920000,
+    "category": "memory",
+    "brand": "patriot",
+    "image": "https://http2.mlstatic.com/D_Q_NP_974635-MLA80736486230_112024-O.webp"
+  },
+  {
+    "id": 46,
+    "name": "Monitor LG UltraGear 24GN600-B 24'' Full HD 144Hz 1ms",
+    "price": 720000,
+    "category": "monitors",
+    "brand": "lg",
+    "image": "https://www.mrpc.com.co/wp-content/uploads/2023/09/001-58.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Monitor Samsung Odyssey G3 24'' Full HD 165Hz",
+    "price": 850000,
+    "category": "monitors",
+    "brand": "samsung",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_920268-MLA95958514067_102025-O.webp"
+  },
+  {
+    "id": 48,
+    "name": "Monitor ASUS TUF Gaming VG259QR 24.5'' 165Hz 1ms",
+    "price": 870000,
+    "category": "monitors",
+    "brand": "asus",
+    "image": "https://http2.mlstatic.com/D_Q_NP_729870-MLA91843298477_092025-B.webp"
+  },
+  {
+    "id": 49,
+    "name": "Monitor AOC 24G2SPU 24'' Full HD 165Hz 1ms",
+    "price": 830000,
+    "category": "monitors",
+    "brand": "aoc",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_959986-MCO76681485229_052024-O.webp"
+  },
+  {
+    "id": 50,
+    "name": "Monitor Dell SE2722H 27'' Full HD 75Hz",
+    "price": 780000,
+    "category": "monitors",
+    "brand": "dell",
+    "image": "https://computechstore.in/wp-content/uploads/2023/02/Dell-27-SE2722H-1.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Monitor HP X24ih 24'' Full HD 144Hz IPS",
+    "price": 740000,
+    "category": "monitors",
+    "brand": "hp",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_788342-MPE47718119298_092021-O.webp"
+  },
+  {
+    "id": 52,
+    "name": "Monitor MSI G24C6P 24'' Curvo Full HD 165Hz",
+    "price": 890000,
+    "category": "monitors",
+    "brand": "msi",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_882979-MCO47951513383_102021-O.webp"
+  },
+  {
+    "id": 53,
+    "name": "Monitor Gigabyte G27F 27'' Full HD 144Hz IPS",
+    "price": 950000,
+    "category": "monitors",
+    "brand": "gigabyte",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_828759-MLA45731320593_042021-O.webp"
+  },
+  {
+    "id": 54,
+    "name": "Monitor Acer Nitro VG240Y 24'' Full HD 75Hz IPS",
+    "price": 680000,
+    "category": "monitors",
+    "brand": "acer",
+    "image": "https://exitocol.vteximg.com.br/arquivos/ids/18199836/monitor-gamer-acer-nitro-24-pulgadas-full-hd-75-hz-1-ms-vg240y.jpg?v=638183174878170000"
+  },
+  {
+    "id": 55,
+    "name": "Monitor ViewSonic XG2405 24'' Full HD 144Hz IPS",
+    "price": 910000,
+    "category": "monitors",
+    "brand": "viewsonic",
+    "image": "https://m.media-amazon.com/images/I/61o0UwxQ11L.AC_UF894,1000_QL80.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Monitor LG 32UN500-W 32'' 4K UHD HDR10",
+    "price": 1550000,
+    "category": "monitors",
+    "brand": "lg",
+    "image": "https://m.media-amazon.com/images/I/71V9R7esdxL.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Monitor Samsung Odyssey G5 32'' QHD Curvo 165Hz",
+    "price": 1850000,
+    "category": "monitors",
+    "brand": "samsung",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_601890-MCO89358320686_082025-O.webp"
+  },
+  {
+    "id": 58,
+    "name": "Monitor ASUS ProArt Display PA278QV 27'' QHD IPS",
+    "price": 1350000,
+    "category": "monitors",
+    "brand": "asus",
+    "image": "https://http2.mlstatic.com/D_Q_NP_744206-MLA95648445061_102025-O.webp"
+  },
+  {
+    "id": 59,
+    "name": "Monitor Dell Alienware AW2523HF 25'' 360Hz",
+    "price": 2100000,
+    "category": "monitors",
+    "brand": "dell",
+    "image": "https://http2.mlstatic.com/D_Q_NP_955445-CBT85683501080_062025-O.webp"
+  },
+  {
+    "id": 60,
+    "name": "Monitor MSI Optix MAG342CQR 34'' Ultrawide Curvo QHD 144Hz",
+    "price": 2450000,
+    "category": "monitors",
+    "brand": "msi",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_932147-MLA95631182047_102025-O.webp"
+  },
+  {
+    "id": 61,
+    "name": "Logitech G502 Lightspeed, Mouse Gamer Inalámbrico / 25600dpi Color Negro",
+    "price": 550000,
+    "category": "peripherals",
+    "brand": "logitech",
+    "image": "https://http2.mlstatic.com/D_Q_NP_845790-MLA96090565777_102025-L.webp"
+  },
+  {
+    "id": 62,
+    "name": "Logitech G305, Mouse Gamer Inalámbrico / 12000dpi - Negro Color Black",
+    "price": 200000,
+    "category": "peripherals",
+    "brand": "logitech",
+    "image": "https://http2.mlstatic.com/D_Q_NP_853062-MLA96151905597_102025-L.webp"
+  },
+  {
+    "id": 63,
+    "name": "Logitech G733, Diadema Gamer Rgb Inalámbrica",
+    "price": 780000,
+    "category": "peripherals",
+    "brand": "logitech",
+    "image": "https://http2.mlstatic.com/D_Q_NP_828712-MLA95645753686_102025-B.webp"
+  },
+  {
+    "id": 64,
+    "name": "Teclado Logitech G Serie G QWERTY Romer-G inglés internacional color negro con luz RGB",
+    "price": 195000,
+    "category": "peripherals",
+    "brand": "logitech",
+    "image": "https://http2.mlstatic.com/D_Q_NP_863666-MLA95843493597_102025-B.webp"
+  },
+  {
+    "id": 65,
+    "name": "Teclado Inalámbrico Logitech G Pro X 60 Lightspeed Negro",
+    "price": 680000,
+    "category": "peripherals",
+    "brand": "logitech",
+    "image": "https://http2.mlstatic.com/D_Q_NP_700435-MLA95398524416_102025-B.webp"
+  },
+  {
+    "id": 66,
+    "name": "Mouse Razer Viper V3 Hyperspeed 30k Dpi 280h Inalambrico",
+    "price": 370000,
+    "category": "peripherals",
+    "brand": "razer",
+    "image": "https://backoffice.max.com.gt/media/catalog/product/cache/94dd7777337ccc7ac42c8ee85d48fab6/R/Z/RZ0104650100_3.jpg"
+  },
+  {
+    "id": 67,
+    "name": "Razer Basilisk V3 - Mouse Chroma Rgb Ligh Color Classic black",
+    "price": 193000,
+    "category": "peripherals",
+    "brand": "razer",
+    "image": "https://http2.mlstatic.com/D_Q_NP_767359-MLA93082762568_092025-B.webp"
+  },
+  {
+    "id": 68,
+    "name": "Auriculares Razer Blackshark V2 X Gaming",
+    "price": 190000,
+    "category": "peripherals",
+    "brand": "razer",
+    "image": "https://http2.mlstatic.com/D_Q_NP_697962-MLA95837345411_102025-B.webp"
+  },
+  {
+    "id": 69,
+    "name": "Razer Ornata V3 X Teclado Gamer Meca-membrana Rgb",
+    "price": 160000,
+    "category": "peripherals",
+    "brand": "razer",
+    "image": "https://http2.mlstatic.com/D_Q_NP_772295-MLA95839208515_102025-B.webp"
+  },
+  {
+    "id": 70,
+    "name": "Combo Razer 3 En 1 Gamming Bundle Teclado Mouse Y Pad Mouse Negro Inglés Internacional",
+    "price": 140000,
+    "category": "peripherals",
+    "brand": "razer",
+    "image": "https://http2.mlstatic.com/D_Q_NP_740624-MCO92673555913_092025-B.webp"
+  },
+  {
+    "id": 71,
+    "name": "Mouse Inalámbrico Para Juegos Attack Shark X6 26k Dpi Rgb Wh",
+    "price": 270000,
+    "category": "peripherals",
+    "brand": "attackshark",
+    "image": "https://http2.mlstatic.com/D_Q_NP_955718-CBT81652823015_122024-B.webp"
+  },
+  {
+    "id": 72,
+    "name": "Mouse Gamer X11 Attack Shark Tri Mode 22000 dpi Paw3311 Dock Color Negro",
+    "price": 150000,
+    "category": "peripherals",
+    "brand": "attackshark",
+    "image": "https://http2.mlstatic.com/D_Q_NP_936423-MLA95398405208_102025-B.webp"
+  },
+  {
+    "id": 73,
+    "name": "Teclado Mecanico A.jazz Attack Shark Ak820 Pro 75% Negro",
+    "price": 375000,
+    "category": "peripherals",
+    "brand": "attackshark",
+    "image": "https://http2.mlstatic.com/D_Q_NP_667271-CBT81231003488_122024-B.webp"
+  },
+  {
+    "id": 74,
+    "name": "Teclado Para Juegos A.jazz Attack Shark Ak820 Pro Wireless P",
+    "price": 455000,
+    "category": "peripherals",
+    "brand": "attackshark",
+    "image": "https://http2.mlstatic.com/D_Q_NP_606118-CBT81746197049_012025-B.webp"
+  },
+  {
+    "id": 75,
+    "name": "Attack Shark X65pro He Y X11 Combo De Juegos-efecto Hall & 8",
+    "price": 690000,
+    "category": "peripherals",
+    "brand": "attackshark",
+    "image": "https://http2.mlstatic.com/D_Q_NP_714245-CBT93120334051_092025-B.webp"
+  }
+],
+  "categories": [
+    {
+      "id": "computers",
+      "name": "Computadores",
+      "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600"
+    },
+    {
+      "id": "laptops",
+      "name": "Portátiles Gamer",
+      "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600"
+    },
+    {
+      "id": "graphics-cards",
+      "name": "Tarjetas Gráficas",
+      "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=600"
+    },
+    {
+      "id": "monitors",
+      "name": "Monitores",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600"
+    },
+    {
+      "id": "peripherals",
+      "name": "Periféricos",
+      "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=600"
+    },
+    {
+      "id": "cases",
+      "name": "Cajas para PC",
+      "image": "https://images.unsplash.com/photo-1587202372583-49330a15584d?w=600"
+    },
+    {
+      "id": 76,
+      "name": "Mother Asus Rog Strix B250g Gaming Lga 1151 Ddr4",
+      "price": 305400,
+      "category": "motherboards",
+      "brand": "asus",
+      "image": "https://http2.mlstatic.com/D_Q_NP_668331-CBT96680537874_112025-L.webp"
+    },
+    {
+      "id": 77,
+      "name": "Board Asrock B860m Pro A Wifi 6e - Negro",
+      "price": 845000,
+      "category": "motherboards",
+      "brand": "asus",
+      "image": "https://http2.mlstatic.com/D_Q_NP_668331-CBT96680537874_112025-L.webp"
+    },
+    {
+      "id": 78,
+      "name": "Placa Madre Msi Mpg B550 Gaming Plus, Atx, Am4, Pcie 4.0",
+      "price": 628000,
+      "category": "motherboards",
+      "brand": "msi",
+      "image": "https://http2.mlstatic.com/D_Q_NP_862331-CBT70232660582_072023-L.webp"
+    },
+    {
+      "id": 79,
+      "name": "Placa Madre Gigabyte Amd B850 Gaming Wifi 6 Color Negro",
+      "price": 975.000,
+      "category": "motherboards",
+      "brand": "gigabyte",
+      "image": "https://http2.mlstatic.com/D_Q_NP_729357-MLA95959336193_102025-L.webp"
+    },
+    {
+      "id": 80,
+      "name": "Tarjeta Madre Asus Rog Strix B650-a Gaming Wifi 6e Usb C",
+      "price": 1069200,
+      "category": "motherboards",
+      "brand": "asus",
+      "image": "https://http2.mlstatic.com/D_Q_NP_795590-MLA96080475507_102025-L.webp"
+    },
+    {
+      "id": 81,
+      "name": "Gigabyte B650 Aorus Elite Ax (am5/ Lga 1718/ Amd B650",
+      "price": 1001200,
+      "category": "motherboards",
+      "brand": "gigabyte",
+      "image": "https://http2.mlstatic.com/D_Q_NP_944532-CBT76901443485_062024-L.webp"
+    },
+    {
+      "id": 82,
+      "name": "Placa Madre Asrock Z790 Pro Rs Wifi Intel Lga1700 Ddr5",
+      "price": 1035000,
+      "category": "motherboards",
+      "brand": "asus",
+      "image": "https://http2.mlstatic.com/D_Q_NP_734467-CBT81477070697_122024-L.webp"
+    },
+    {
+      "id": 83,
+      "name": "Placa Msi Mag Z790 Tomahawk Max Wifi Pro D5 Lga 1700 Atx Color Negro",
+      "price": 1410000,
+      "category": "motherboards",
+      "brand": "msi",
+      "image": "https://http2.mlstatic.com/D_Q_NP_795590-MLA96080475507_102025-L.webp"
+    },
+    {
+      "id": 84,
+      "name": "Placa Madre Gigabyte B650e Aorus Elite X Ax Ice Am5 Lga 1718",
+      "price": 985600,
+      "category": "motherboards",
+      "brand": "gigabyte",
+      "image": "https://http2.mlstatic.com/D_Q_NP_665050-CBT79919404141_102024-L.webp"
+    },
+    {
+      "id": 85,
+      "name": "Asus Rog Maximus Z790 Hero Wifi6e Lga 1700(intel 14th",
+      "price": 4242000,
+      "category": "motherboards",
+      "brand": "asus",
+      "image": "https://http2.mlstatic.com/D_Q_NP_932815-CBT74327768467_012024-L.webp"
+    },
+    {
+      "id": 86,
+      "name": "Placa Madre Gigabyte Z890 Aorus Master, Atx, Ddr5",
+      "price": 2196000,
+      "category": "motherboards",
+      "brand": "gigabyte",
+      "image": "https://http2.mlstatic.com/D_Q_NP_932815-CBT74327768467_012024-L.webp"
+    },
+    {
+      "id": 87,
+      "name": "Asus Rog Maximus Z890 Hero Intel® Z890 Lga 1851 Atx",
+      "price": 2296300,
+      "category": "motherboards",
+      "brand": "asus",
+      "image": "https://http2.mlstatic.com/D_Q_NP_829502-CBT82992688406_032025-L.webp"
+    },
+    {
+      "id": 88,
+      "name": "Msi Meg X870e Godlike, E-atx - Soporta Amd Ryzen",
+      "price": 6203800,
+      "category": "motherboars",
+      "brand": "msi",
+      "image": "https://http2.mlstatic.com/D_Q_NP_716379-CBT83876267735_042025-L.webp"
+    },
+    {
+      "id": 89,
+      "name": "Placa Base Msi Mag X870, Wifi7, Am5, Pcie 5.0, Ddr5, Atx",
+      "price": 1548800,
+      "category": "motherboards",
+      "brand": "msi",
+      "image": "https://http2.mlstatic.com/D_Q_NP_681881-CBT83282339055_032025-L.webp"
+    },
+    {
+      "id": 90,
+      "name": "Placa Base Para Juegos Msi Mag B550 Tomahawk Max Wifi",
+      "price": 923000,
+      "category": "motherboards",
+      "brand": "msi",
+      "image": "https://http2.mlstatic.com/D_Q_NP_908387-CBT71945863728_092023-L.webp"
+    },
+    {
+      "id": 91,
+      "name": "PROCESADOR INTEL CORE I3-12100F 4.30 GHZ",
+      "price": 975000,
+      "category": "processors",
+      "brand": "intel",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTAlyF3yeEEd-o3ZBj-cwsT2vdvp_LSO8kwCn85Q6vPBU1EkJRdgSnn0YdVhn6LYVGNj-J-Y4Jxj4pHJcG2Y2eh9ob1WiagknFcNMyeOMhRLRGhluDg5xld3Q"
+    },
+    {
+      "id": 92,
+      "name": "Procesador Intel Core i5-12400 1700",
+      "price": 895000,
+      "category": "processors",
+      "brand": "intel",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQXvR2xoV5Vbukehex1IkIwqd6RaDQ2826SOLlZJ5AttfmT7zh8W3nCdwbCFxq6VxkcoJg3lFbWZUc98PNSlFm_35yK_BG7sh1Ah2tljC9-_eNVPX1uvHZ_d1Q"
+    },
+    {
+      "id": 93,
+      "name": "Procesador Intel Core i7-10700K 3.8 GHz",
+      "price": 1943200,
+      "category": "processors",
+      "brand": "intel",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTwHT_wXM6qg3htYfkKgP_fmT-MVBpVAJoKmm70tqDRV_MAGaYUkMjAHT57wMfBN_-OC5EGAeTZGNR4ZIgcsihr6Ew_0so2aK5Z6MtaOFbr2eEojIPw3kLG"
+    },
+    {
+      "id": 94,
+      "name": "Procesador Intel Core I7 12700F",
+      "price":  1837000,
+      "category": "processors",
+      "brand": "intel",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR0MIbGEMuzubb9GnI6Ex6KMqy6Ztlyk91MvDDahyp9nblmEsjkg6QT-fnHntScRqgLVLOa-W5uY-UkUGuYe1KisnlZ1V-5WYyXihW4_dc-ooPDVLrdbpYq"
+    },
+    {
+      "id": 95,
+      "name": "Procesador Intel Core i9‑13900K",
+      "price": 1872600,
+      "category": "processors",
+      "brand": "intel",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSCHnuIwIjrdB7_qFKr7fD68k4ia4gpHC0W2MmtdtQ_1BWT_HgUopho6FOnKCNhF_InxwinJjrf3uqYzoi6qORqvRXu9IPXhp3ZCyXKMpbXLQLV7YoovyqK"
+    },
+    {
+      "id": 96,
+      "name": "Procesador Intel Core i7-12700K 1700",
+      "price": 1051000,
+      "category": "processors",
+      "brand": "intel",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTa-IKeEYSle2P7go25N-mMY0OQuAz4YjbSTwOFlFwOXed9XQ8Pv2bvhGCecOMwIARR1JbDJS274wkN1EutMf4LAxVvM7_BWG3oMK3CAf0ofpLHcdihSZ-gPg"
+    },
+    {
+      "id": 97,
+      "name": "Procesador Intel Ultra 7 265f",
+      "price": 1510000,
+      "category": "processors",
+      "brand": "intel",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdlPou4GFme5I7CNIzH0C2GtYrwEmcH-6fL1L5tFbIlzPh8zYhPVkkgR4PGADqqjns3QD-0BCOrnalgppsU8jVpN_fz2LPO26MaAQiknUe"
+    },
+    {
+      "id": 98,
+      "name": "Procesador Amd Ryzen 5 7600x Am5",
+      "price": 799000,
+      "category": "processors",
+      "brand": "amd",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQelFi5sShjQnTe0CrgVRu1AtKC_5KOfvqkEi2xXIjiNadjFvKozAxnh2reN7J9vx9OeKR8Vj-N0JEugR60L_Cwj_KnPSmsTayftgAKtHb90IZvSWD6B1PCWNk"
+    },
+    {
+      "id": 99,
+      "name": "Procesador Amd Ryzen 7 5700G",
+      "price": 1279000,
+      "category": "processors",
+      "brand": "amd",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTmalcrC4QhmRxnFVgylwRpRdr3isZkSj5ADJgKyCNeTC2mRzk-iRi1_oCTMgEtVUHWdtWn_-Bib5ZdxxQl_lmpv80UHPXiQxzXjwEFnA9L-6JdkBl4-M2D3cM"
+    },
+    {
+      "id": 100,
+      "name": "Procesador Amd Ryzen 7 5800X",
+      "price": 1027000,
+      "category":"processors",
+      "brand": "amd",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR4rw9p_wTXFbEoDeTkQRNM_6a9mDmapxEXAv6LKI8jZuEySnunAOq9UvQd6P2P1rYXSzqIDnG1Avvaoy5OrPe0-RmfP5rT0sXLLNOEUqqVBw3tAzXytv8X0w"
+    },
+    {
+      "id": 101,
+      "name": "Procesador Amd R9-7900x 4.70ghz",
+      "price": 1659900,
+      "category":"processors",
+      "brand": "amd",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTrohzqflkdJj-TWrWKFmBpl4Qhb8lYVb4Mn67NRkkwNAAXZqc5YsV4JoQ1hNps0Rehkiv0SM7wVuZkU3MRBCqgqBxYYBzakDsok-F9U6m7RLVXXVt8C4Rr-w"
+    },
+    {
+      "id": 102,
+      "name": "Procesador Amd R9-7950x3d 4.2ghz",
+      "price": 3537000,
+      "category":"processors",
+      "brand": "amd",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQTtcsNZOmaANX9p0__yTXe-1FziDlmulrQlCfcFsjBLQrTuKa7PAP2-EeMfATqJfZ5y-b-H7IDO86ithFQ4uCcDyp3D1cNarCX0EPV_isxK9tc_GY8PMgUlA"
+    },
+    {
+      "id": 103,
+      "name": "Procesador Amd Cpu R9-5950x 3.4ghz",
+      "price": 1250000,
+      "category":"processors",
+      "brand": "amd",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQOhZ5WDV5ecBfZTorW3a7sPxBpc79SSgmM_lYrvHKEwM5NOEJKLIzsdQ5qrRvuRteMrGcmuBuLwSVbYcRimNvjrUT1eqWl_gMQNk5hGJj3ilmixkbJJ_6e"
+    },
+    {
+      "id": 104,
+      "name": "Amd Procesador Am4 Ryzen 7 3800xt 8 X 4.7ghz/36mb One Size",
+      "price": 1413000,
+      "category":"processors",
+      "brand": "amd",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQisUMPzy7ZXlWIxkgjDpKSQiwgy6jLPscKgErI8OByA0Up4j37RNXEUShgZTGOzspXDXTXDgG9dqNvf43anyALMRPKRfm4FDIa3hSIy4-rLEXh5J4dUmN4Hg"
+    },
+    {
+      "id": 105,
+      "name": "Procesadr AMD Ryzen 5 4600G AM4",
+      "price": 590000,
+      "category":"processors",
+      "brand": "amd",
+      "image": "https://media.falabella.com/falabellaCO/139162013_01/w=1500,h=1500,fit=pad"
+    },
+    {
+      "id": 106,
+      "name": "MSI GeForce RTX 4070 Super 12G Gaming X Slim",
+      "price": 3909000,
+      "category": "graphics-cards",
+      "brand": "msi",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS_o_sE6_G6pGR9gfPrz2DEVemEOZ4-sz9nSnKzN61EQtDs5_3UtBzgN-2KOmsYyfh43PmChn91httnS3USrRV31I1UZRd1E8wP27O3BJ5UrnRCir3wL1XHvlM"
+    },
+    {
+      "id": 107,
+      "name": "Nvidia geforce msi rtx 4060 ti ventus 3x 16gb oc",
+      "price": 2953000,
+      "category": "graphics-cards",
+      "brand": "msi",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTbPF7D5IrkuPNxR-WlKooLQEkHMYmBf3jPyi3slcDRoyOf-s6j9yLlBQFU5BDR62sySPdYeAcf9mCCVo77TKk_8GdkJmooqIV1PMSoU3lQt0b2H8maPkVy"
+    },
+    {
+      "id": 108,
+      "name": "MSI RTX 3060 Gaming 12G NVIDIA GeForce RTX 3060 12 GB GDDR6",
+      "price":  3672000,
+      "category": "graphics-cards",
+      "brand": "msi",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT05FUuJLS1Z3OXoGOAbjZ2fXhFygvqZivmKd_izEc6FNpQ8E34LoqbwUDnzqDNvWVa0FuTjdv034oQKjS91TOkwE6IYILqb51Oku_eXUIlEILlQrFoeCW54w"
+    },
+    {
+      "id": 109,
+      "name": "Gigabyte Tarjeta Gráfica Rx 9070 Gaming Oc 16gb Gddr6",
+      "price":   2767000,
+      "category": "graphics-cards",
+      "brand": "gigabyte",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRW3ziJxDiA2qoFzjuYxqmcciqShga_sSbIAUkw9HTUkN4z2eVTKPb-N6TNtf-ybsfzUAPqNgDxLkzSmwjoapk_tbvLYaav_HTQnlgyfCSe_eqnczZ3l1pDBw"
+    },
+    {
+      "id": 110,
+      "name": "Tarjeta Gráfica GIGABYTE Radeon 9060XT 16GB GDDR7 Gaming",
+      "price":  2088000,
+      "category": "graphics-cards",
+      "brand": "gigabyte",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQocc1Q9q2ncB8eZnmU5AfpjtlAvJ42S3IQ1aDJ9XnxtC3oFKnsHDLd_fVsASp1NbksZ6U2VpymyHjxM1glHZNuC4eNTWoC-haI_Jmcbtpy"
+    },
+    {
+      "id": 111,
+      "name": "Gigabyte Tarjeta Gráfica Radeon Rx 6500 Xt Eagle 4g 4gb Gddr6",
+      "price":  1137000,
+      "category": "graphics-cards",
+      "brand": "gigabyte",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTWwOy46gZKLdb2uJbSJeHraT7vwR-TohfDifI1Yc0OtRaVxjfQ4jJOnc85IBcCpJg0KE3GT-jEjouWl8hnjYG6zxh5lnerQda8kudSt7PNDYoqLEvOJ9rjSw"
+    },
+    {
+      "id": 112,
+      "name": "ASUS ROG Strix RTX 4080",
+      "price":  6099000,
+      "category": "graphics-cards",
+      "brand": "asus",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQKuKo47_Ifgo7ZxVzFOFzb-cfzQdcgP1X632CDo9rk6A6Lctga12ECuKMdAUUcsUddT9xKlmOA78boPYRDFSKD0p3JW16_2EkxBSR2nxEZ242iI2zGhEPX"
+    },
+    {
+      "id": 113,
+      "name": "Tarjeta de Video ASUS TUF Gaming RTX 4070 OC Edition GDDR6X 12GB NVIDIA",
+      "price":  2022000,
+      "category": "graphics-cards",
+      "brand": "asus",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSub5ukx_soJukp3DsnR4_SevafIPPEDkkWN0ys9x5nJW7gxaQ1Fjwo1raywqs5S52gTGWjA5ch9xU98dxUU8u5DgT3oQGbp7hPiPyZk8fEOXzmtoi5w9MAUQ"
+    },
+    {
+      "id": 114,
+      "name": "ASUS TUF GAMING GeForce RTX 3060 OC",
+      "price":   1089000,
+      "category": "graphics-cards",
+      "brand": "asus",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTxDZNUznT88RSRQfcezMtBaLoetnCME3ngOs1fmrq9VplkaJgop3jQ6-dB4VDcYJZTVWeEG8gH5NVX9QI1jFha0EjidAVZ755SrMH7aPYo3EZd_n0xDjBP"
+    },
+    {
+      "id": 115,
+      "name": "Tarjeta de video xfx amd radeon rx 9070 xt quicksilver",
+      "price":   3090000,
+      "category": "graphics-cards",
+      "brand": "amd",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQQfYGy6bbnjkwiDjvxxybSiftxgxet1D5PwPgsJn9pl_ZvrNU6wsecs80erOkKegRl0YIdA9VjDstVgLG1VKbZLKUeeAlmnQ7_XSoL8U_5d"
+    },
+    {
+      "id": 116,
+      "name": "Asrock Tarjeta Gráfica Rx 9060 Xt Gddr6",
+      "price":   2038000,
+      "category": "graphics-cards",
+      "brand": "amd",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSNg-khYMVdKbgFONxp_QmHvHqT7vcKcbJzzpWo4FGIGgqiWQzDKkr8ZPIJhTa7VOhVZPTitPfbrEaZRij045cA29Hv-MtA-avPQapNjSOJ_rGRToax--GC8g"
+    },
+    {
+      "id": 117,
+      "name": "Tarjeta Gráfica Amd Radeon Rx 7900xt 20 Gb Gddr6 Gaming",
+      "price":   8636000,
+      "category": "graphics-cards",
+      "brand": "amd",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS_UdbcQ5bqc79UKDj3bLjsaxseJidSoORvuq9vjCH7GQlobZMQxPiQ3PMjyKPZLm11LYR8xWkN3yxfB0AlO5Hh4-PRWlSvgKm27sTI2am-PY7W9i-wyEmX"
+    },
+    {
+      "id": 118,
+      "name": "Gigabyte Tarjeta Gráfica Rtx 5090 Windforce Oc 32gb Gddr7",
+      "price":   14938000,
+      "category": "graphics-cards",
+      "brand": "nvidia",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ6qyfMN0HFAVCj8_pHM4Uq7Q98OWGlgMW8CCufvP6aEv6nC3LMAsNU967VnIfsSNVB3-p8Yj5oMbAW8diUdF3mNA2LOh5P71Wqn5-HlGUGx0cdwOSZ_9MTEw"
+    },
+    {
+      "id": 119,
+      "name": "Gigabyte Tarjeta Gráfica Rtx 5070 Ti Windforce Sff 16gb Gddr7",
+      "price":   3470000,
+      "category": "graphics-cards",
+      "brand": "nvidia",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRCatEnKBaX7jGUPGXTcBVbSQjO3FgOUqjNPSzV1AVmPCTaQJtWJ1HkoDRV_NjF99rv2I7YylHOvcJxSivCQvHKTdCv-PwVcXpgSR9CjYw6"
+    },
+    {
+      "id": 120,
+      "name": "GIGABYTE Tarjeta gráfica GeForce RTX 3060 Gaming OC 12G",
+      "price":   1248000,
+      "category": "graphics-cards",
+      "brand": "nvidia",
+      "image": "https://m.media-amazon.com/images/I/61XAtpgr1lL.AC_UY218.jpg"
+    }
+  ],
+  "brands": [
+    "NVIDIA",
+    "Cougar",
+    "Kingston",
+    "Redragon",
+    "XPG",
+    "Logitech",
+    "Gigabyte",
+    "Corsair",
+    "MSI",
+    "Cooler Master",
+    "Asus",
+    "HyperX"
+  ]
+}
