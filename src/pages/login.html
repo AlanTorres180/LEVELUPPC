@@ -4,29 +4,87 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Ingresar | LevelUp PC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
 </head>
-<body>
-  <main style="max-width:380px;margin:60px auto;padding:0 16px;display:grid;gap:10px">
-    <a href="/">← Volver a la tienda</a>
-    <h1 id="titulo">Ingresar</h1>
-    <form id="f" style="display:grid;gap:10px">
-      <input name="correo" type="email" placeholder="Correo" required autocomplete="username">
-      <input name="clave" type="password" placeholder="Contraseña" required minlength="8" autocomplete="current-password">
-
-      <!-- Solo se muestran al crear cuenta. display:none inicial (el atributo hidden no basta si hay display inline) -->
-      <div id="extra" style="display:none;gap:10px">
-        <input name="nombre" placeholder="Nombre completo">
-        <input name="telefono" placeholder="Teléfono (7 a 15 dígitos)">
-        <input name="direccion" placeholder="Dirección de envío">
-        <input name="ciudad" placeholder="Ciudad">
+<body class="page-app">
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="/">
+            <svg width="120" height="40" viewBox="0 0 120 40" fill="none">
+              <text x="0" y="25" font-family="Poppins" font-weight="800" font-size="18" fill="#9FEF00">LEVELUP</text>
+              <text x="0" y="37" font-family="Poppins" font-weight="600" font-size="10" fill="#FFF">PC</text>
+            </svg>
+          </a>
+        </div>
+        <div class="header-actions">
+          <a href="/" class="header-link">← Volver a la tienda</a>
+        </div>
       </div>
+    </div>
+  </header>
 
-      <button id="enviar">Ingresar</button>
-      <p id="msg" role="alert"></p>
-    </form>
-    <a href="#" id="alt">¿No tienes cuenta? Regístrate</a>
+  <main class="app-main auth-main">
+    <section class="auth-card">
+      <h1 class="auth-title" id="titulo">Ingresar</h1>
+      <p class="auth-subtitle" id="subtitulo">Accede a tu cuenta de LevelUp PC</p>
+
+      <form id="f" novalidate>
+        <div class="form-group">
+          <label for="correo">Correo</label>
+          <input id="correo" name="correo" type="email" placeholder="tucorreo@ejemplo.com" required autocomplete="username">
+        </div>
+        <div class="form-group">
+          <label for="clave">Contraseña</label>
+          <input id="clave" name="clave" type="password" placeholder="Mínimo 8 caracteres" required minlength="8" autocomplete="current-password">
+        </div>
+
+        <!-- Solo se muestran al crear cuenta (login.ts cambia el display) -->
+        <div id="extra" class="auth-extra">
+          <div class="form-group">
+            <label for="nombre">Nombre completo</label>
+            <input id="nombre" name="nombre" placeholder="Tu nombre">
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input id="telefono" name="telefono" placeholder="7 a 15 dígitos" inputmode="tel">
+          </div>
+          <div class="form-group">
+            <label for="direccion">Dirección de envío</label>
+            <input id="direccion" name="direccion" placeholder="Calle, número, barrio">
+          </div>
+          <div class="form-group">
+            <label for="ciudad">Ciudad</label>
+            <input id="ciudad" name="ciudad" placeholder="Ciudad">
+          </div>
+        </div>
+
+        <button id="enviar" class="btn-primary" type="submit">Ingresar</button>
+        <p id="msg" class="form-msg" role="alert"></p>
+      </form>
+
+      <p class="auth-switch"><span id="alt-texto">¿No tienes cuenta?</span> <a href="#" id="alt">Regístrate</a></p>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Enlaces Rápidos</h3>
+          <ul><li><a href="/#contacto">Contáctenos</a></li></ul>
+        </div>
+        <div class="footer-section">
+          <h3>LEVEL UP PC®</h3>
+          <p>Aviso de Privacidad</p>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script type="module" src="/src/js/login.ts"></script>
 </body>
 </html>

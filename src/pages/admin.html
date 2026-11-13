@@ -1,18 +1,93 @@
 <!doctype html>
-<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Administración | LevelUp PC</title><link rel="stylesheet" href="/style.css"></head>
-<body><main style="max-width:1000px;margin:30px auto;padding:0 16px">
-  <h1>Panel de administración</h1><button id="salir">Cerrar sesión</button>
-  <h2>Nuevo producto</h2>
-  <form id="nuevo" style="display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">
-    <input name="name" placeholder="Nombre" required><input name="price" type="number" min="1" placeholder="Precio" required>
-    <select name="category">
-      <option>processors</option><option>graphics-cards</option><option>memory</option><option>motherboards</option>
-      <option>power-supplies</option><option>cases</option><option>monitors</option><option>peripherals</option>
-    </select>
-    <input name="brand" placeholder="Marca (slug, ej. asus)" required><input name="image" placeholder="URL de imagen">
-    <input name="stock" type="number" min="0" value="0"><button>Agregar</button>
-  </form>
-  <p id="msg" role="alert"></p>
-  <table style="width:100%;margin-top:20px"><thead><tr><th>Producto</th><th>Precio</th><th>Stock</th><th></th></tr></thead><tbody id="lista"></tbody></table>
-</main><script type="module" src="/src/js/admin.ts"></script></body></html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Administración | LevelUp PC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body class="page-app">
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="/">
+            <svg width="120" height="40" viewBox="0 0 120 40" fill="none">
+              <text x="0" y="25" font-family="Poppins" font-weight="800" font-size="18" fill="#9FEF00">LEVELUP</text>
+              <text x="0" y="37" font-family="Poppins" font-weight="600" font-size="10" fill="#FFF">PC</text>
+            </svg>
+          </a>
+        </div>
+        <div class="header-actions">
+          <a href="/" class="header-link">← Ver tienda</a>
+          <button id="salir" class="btn-outline-light" type="button">Cerrar sesión</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-main admin-main">
+    <h1 class="admin-title">Panel de administración</h1>
+
+    <section class="admin-card">
+      <h2>Nuevo producto</h2>
+      <form id="nuevo" class="admin-form">
+        <div class="form-group">
+          <label for="p-name">Nombre</label>
+          <input id="p-name" name="name" placeholder="Ej. Ryzen 5 5600" required>
+        </div>
+        <div class="form-group">
+          <label for="p-price">Precio</label>
+          <input id="p-price" name="price" type="number" min="1" placeholder="0" required>
+        </div>
+        <div class="form-group">
+          <label for="p-category">Categoría</label>
+          <select id="p-category" name="category">
+            <option>processors</option><option>graphics-cards</option><option>memory</option><option>motherboards</option>
+            <option>power-supplies</option><option>cases</option><option>monitors</option><option>peripherals</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="p-brand">Marca (slug)</label>
+          <input id="p-brand" name="brand" placeholder="ej. asus" required>
+        </div>
+        <div class="form-group">
+          <label for="p-image">URL de imagen</label>
+          <input id="p-image" name="image" placeholder="https://...">
+        </div>
+        <div class="form-group">
+          <label for="p-stock">Stock</label>
+          <input id="p-stock" name="stock" type="number" min="0" value="0">
+        </div>
+        <div class="form-submit"><button class="btn-primary" type="submit">Agregar producto</button></div>
+      </form>
+      <p id="msg" class="form-msg" role="alert"></p>
+    </section>
+
+    <section class="admin-card">
+      <h2>Productos</h2>
+      <div class="admin-table-wrap">
+        <table class="admin-table">
+          <thead><tr><th>Producto</th><th>Precio</th><th>Stock</th><th>Acciones</th></tr></thead>
+          <tbody id="lista"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>LEVEL UP PC®</h3>
+          <p>Panel interno de administración</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="/src/js/admin.ts"></script>
+</body>
+</html>
