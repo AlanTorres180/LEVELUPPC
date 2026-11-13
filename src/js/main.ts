@@ -8,6 +8,7 @@
 import rawProductsData from "../data/products_fixed.json";
 import "../../style.css";
 import "./extras";
+import "./session-ui";
  
  
 // Ejecuta fn ya mismo si el DOM está listo; si no, espera a DOMContentLoaded.

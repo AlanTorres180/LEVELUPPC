@@ -1,16 +1,32 @@
 <!doctype html>
-<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Ingresar | LevelUp PC</title><link rel="stylesheet" href="/style.css"></head>
-<body><main style="max-width:380px;margin:60px auto;display:grid;gap:10px">
-  <h1 id="titulo">Ingresar</h1>
-  <form id="f" style="display:grid;gap:10px">
-    <input name="correo" type="email" placeholder="Correo" required autocomplete="username">
-    <input name="clave" type="password" placeholder="Contraseña" required minlength="8" autocomplete="current-password">
-    <div id="extra" hidden style="display:grid;gap:10px">
-      <input name="nombre" placeholder="Nombre completo"><input name="telefono" placeholder="Teléfono">
-      <input name="direccion" placeholder="Dirección"><input name="ciudad" placeholder="Ciudad">
-    </div>
-    <button>Continuar</button><p id="msg" role="alert"></p>
-  </form>
-  <a href="#" id="alt">¿No tienes cuenta? Regístrate</a>
-</main><script type="module" src="/src/js/login.ts"></script></body></html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ingresar | LevelUp PC</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main style="max-width:380px;margin:60px auto;padding:0 16px;display:grid;gap:10px">
+    <a href="/">← Volver a la tienda</a>
+    <h1 id="titulo">Ingresar</h1>
+    <form id="f" style="display:grid;gap:10px">
+      <input name="correo" type="email" placeholder="Correo" required autocomplete="username">
+      <input name="clave" type="password" placeholder="Contraseña" required minlength="8" autocomplete="current-password">
+
+      <!-- Solo se muestran al crear cuenta. display:none inicial (el atributo hidden no basta si hay display inline) -->
+      <div id="extra" style="display:none;gap:10px">
+        <input name="nombre" placeholder="Nombre completo">
+        <input name="telefono" placeholder="Teléfono (7 a 15 dígitos)">
+        <input name="direccion" placeholder="Dirección de envío">
+        <input name="ciudad" placeholder="Ciudad">
+      </div>
+
+      <button id="enviar">Ingresar</button>
+      <p id="msg" role="alert"></p>
+    </form>
+    <a href="#" id="alt">¿No tienes cuenta? Regístrate</a>
+  </main>
+  <script type="module" src="/src/js/login.ts"></script>
+</body>
+</html>
