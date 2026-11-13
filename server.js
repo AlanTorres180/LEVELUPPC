@@ -5,6 +5,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import OpenAI from "openai";
 
+
 dotenv.config();
 
 import { pool, HttpError } from "./server/db.js";
@@ -12,6 +13,8 @@ import productsRouter from "./server/routes/products.js";
 import combosRouter from "./server/routes/combos.js";
 import checkoutRouter from "./server/routes/checkout.js";
 import pedidosRouter from "./server/routes/pedidos.js";
+import helmet from "helmet";
+import authRouter from "./server/routes/auth.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -22,6 +25,8 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json({ limit: "100kb" }));
 app.use(express.static(path.join(__dirname, "dist")));
+app.use(helmet({ contentSecurityPolicy: false }));   // cabeceras seguras (sin CSP para no romper Vite)
+app.use(cors({ origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(",") : true }));
 
 // ==========================
 // API (MySQL)
@@ -30,6 +35,7 @@ app.use("/api", productsRouter);
 app.use("/api", combosRouter);
 app.use("/api", checkoutRouter);
 app.use("/api", pedidosRouter);
+app.use("/api", authRouter);
 
 app.get("/api/health", async (req, res) => {
   try {

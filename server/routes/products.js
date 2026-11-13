@@ -1,23 +1,13 @@
 import { Router } from "express";
-import crypto from "crypto";
 import { pool, HttpError } from "../db.js";
 import { extractSpecs } from "../compat.js";
+import { requireRole } from "../auth.js";
 
 const router = Router();
 
-// ---- Admin: Bearer token en cabecera (comparación en tiempo constante) ----
-const ADMIN_TOKEN = (process.env.ADMIN_TOKEN || "").trim();
-export function requireAdmin(req, res, next) {
-  if (!ADMIN_TOKEN) return res.status(500).json({ error: "ADMIN_TOKEN no configurado en el servidor" });
-  const auth = req.headers.authorization || "";
-  const provided = auth.startsWith("Bearer ") ? auth.slice(7) : "";
-  const a = Buffer.from(provided);
-  const b = Buffer.from(ADMIN_TOKEN);
-  if (a.length !== b.length || !crypto.timingSafeEqual(a, b)) {
-    return res.status(401).json({ error: "No autorizado" });
-  }
-  next();
-}
+// Solo usuarios con sesión válida (JWT) y rol "Administrador" (RN05).
+// requireRole devuelve un arreglo de middlewares, por eso se usa con ...soloAdmin
+const soloAdmin = requireRole("Administrador");
 
 const PRODUCT_SELECT = `
   SELECT p.id_producto AS id, p.nombre_producto AS name, p.precio_unitario AS price,
@@ -57,7 +47,7 @@ router.get("/products/:id", async (req, res, next) => {
 });
 
 // ---- Administración (RF-11 / RN05) ----
-router.post("/products", requireAdmin, async (req, res, next) => {
+router.post("/products", ...soloAdmin, async (req, res, next) => {
   try {
     const { name, price, category, brand, image, stock } = req.body || {};
     if (!name || !(Number(price) > 0)) throw new HttpError(400, "Faltan campos obligatorios (name, price > 0).");
@@ -79,7 +69,31 @@ router.post("/products", requireAdmin, async (req, res, next) => {
   } catch (err) { next(err); }
 });
 
-router.patch("/products/:id/stock", requireAdmin, async (req, res, next) => {
+// Actualización de nombre y/o precio. Los fragmentos SQL de "sets" son texto fijo;
+// lo que envía el usuario siempre va en "vals" (consulta parametrizada).
+router.patch("/products/:id", ...soloAdmin, async (req, res, next) => {
+  try {
+    const { name, price } = req.body || {};
+    const sets = [], vals = [];
+    if (name !== undefined) {
+      if (!String(name).trim()) throw new HttpError(400, "Nombre vacío");
+      sets.push("nombre_producto = ?"); vals.push(String(name).trim().slice(0, 150));
+    }
+    if (price !== undefined) {
+      if (!(Number(price) > 0)) throw new HttpError(400, "Precio inválido");
+      sets.push("precio_unitario = ?"); vals.push(Number(price));
+    }
+    if (!sets.length) throw new HttpError(400, "Nada que actualizar");
+    const [r] = await pool.query(
+      `UPDATE PRODUCTO SET ${sets.join(", ")} WHERE id_producto = ? AND activo = 1`,
+      [...vals, Number(req.params.id)]
+    );
+    if (!r.affectedRows) throw new HttpError(404, "Producto no encontrado");
+    res.json({ ok: true });
+  } catch (err) { next(err); }
+});
+
+router.patch("/products/:id/stock", ...soloAdmin, async (req, res, next) => {
   try {
     const stock = Number(req.body?.stock);
     if (!Number.isInteger(stock) || stock < 0) throw new HttpError(400, "Stock inválido");
@@ -90,7 +104,7 @@ router.patch("/products/:id/stock", requireAdmin, async (req, res, next) => {
 });
 
 // Borrado LÓGICO: app_cliente no tiene DELETE (trazabilidad de pedidos históricos).
-router.delete("/products/:id", requireAdmin, async (req, res, next) => {
+router.delete("/products/:id", ...soloAdmin, async (req, res, next) => {
   try {
     const [r] = await pool.query("UPDATE PRODUCTO SET activo = 0 WHERE id_producto = ?", [Number(req.params.id)]);
     if (!r.affectedRows) throw new HttpError(404, "Producto no encontrado");

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Administración | LevelUp PC</title><link rel="stylesheet" href="/style.css"></head>
+<body><main style="max-width:1000px;margin:30px auto;padding:0 16px">
+  <h1>Panel de administración</h1><button id="salir">Cerrar sesión</button>
+  <h2>Nuevo producto</h2>
+  <form id="nuevo" style="display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">
+    <input name="name" placeholder="Nombre" required><input name="price" type="number" min="1" placeholder="Precio" required>
+    <select name="category">
+      <option>processors</option><option>graphics-cards</option><option>memory</option><option>motherboards</option>
+      <option>power-supplies</option><option>cases</option><option>monitors</option><option>peripherals</option>
+    </select>
+    <input name="brand" placeholder="Marca (slug, ej. asus)" required><input name="image" placeholder="URL de imagen">
+    <input name="stock" type="number" min="0" value="0"><button>Agregar</button>
+  </form>
+  <p id="msg" role="alert"></p>
+  <table style="width:100%;margin-top:20px"><thead><tr><th>Producto</th><th>Precio</th><th>Stock</th><th></th></tr></thead><tbody id="lista"></tbody></table>
+</main><script type="module" src="/src/js/admin.ts"></script></body></html>
